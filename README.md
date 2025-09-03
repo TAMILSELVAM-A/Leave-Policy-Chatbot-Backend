@@ -33,7 +33,7 @@ Create a .env file in the root directory with your Groq API key:
 ```bash
 GROQ_API_KEY=your_groq_api_key_here
 ```
-**Usage**:
+## Usage
 
 Prepare your document: Place your PowerPoint leave policy file in the **/data** directory
 
@@ -52,6 +52,8 @@ GET / - Health check endpoint
 
 ```http
 POST /chat - Main chatbot endpoint
-
-Request body: {"query": "your question here"}
+```
+Request body: 
+```json 
+{"query": "your question here"}
 ```
